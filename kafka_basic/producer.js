@@ -7,7 +7,7 @@ async function start() {
   await producer.send({
     topic: 'test-topic',
     messages: [
-      { value: 'Hello KafkaJS user! 222' },
+      { value: 'Hello KafkaJS user!' },
     ],
   })
 }
